@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q7"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="101dp"
+        android:layout_height="107dp" app:srcCompat="@drawable/q3"
+        android:id="@+id/imageView" android:layout_marginTop="24dp"
+        android:layout_weight="5"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+
+    <TextView
+        android:text="    yugi oh charcters"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_height="72dp" android:id="@+id/textView2" android:layout_weight="5"
+        android:textColor="@android:color/holo_orange_light" android:textSize="30sp" android:layout_marginTop="-90dp"
+        app:layout_constraintTop_toTopOf="parent"
+
+        android:textStyle="italic" app:layout_constraintStart_toEndOf="@+id/imageView"
+        />
+    <TextView
+        android:text="click to the pics to know more about charcters"
+        android:layout_width="377dp"
+        android:layout_height="52dp"
+        android:id="@+id/textView6" android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp" android:layout_marginEnd="136dp" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="136dp" android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.974"/>
+    <HorizontalScrollView android:layout_width="match_parent"
+        android:layout_weight="90"
+        android:layout_height="495dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.325" android:id="@+id/horizontalScrollView">
+
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent" android:id="@+id/z1" android:layout_weight="1"
+                android:background="@drawable/z1" android:text="yami yugi" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:gravity="start"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent" android:id="@+id/z2" android:layout_weight="1"
+                android:background="@drawable/m1" android:text="seto kaiba" android:textSize="18sp"
+                android:textColor="@color/white" android:gravity="start"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="match_parent" android:id="@+id/z3" android:layout_weight="1"
+                android:background="@drawable/z4"
+                android:text="yami Marik" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:gravity="start"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="1000dp" android:id="@+id/z4" android:layout_weight="1"
+                android:background="@drawable/z15"
+                android:text="JOEY" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="1000dp" android:id="@+id/z5" android:layout_weight="1"
+                android:background="@drawable/c11"
+                android:text="YAMI BAKURA" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="1000dp" android:id="@+id/z6" android:layout_weight="1"
+                android:text="PEGASUS" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:background="@drawable/c8" android:gravity="start"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/c2"
+                android:text="JADEN YUKI" android:textColor="@color/red"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:layout_height="1000dp" android:id="@+id/z7" android:layout_weight="1"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/m3"
+                android:text="ZANE" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:layout_height="1000dp" android:id="@+id/z8" android:layout_weight="1"
+                android:gravity="start"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/c3"
+                android:text="ASTER" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:layout_height="1000dp" android:id="@+id/z9" android:layout_weight="1"
+                android:gravity="start"/>
+
+
+            <Button
+                android:layout_width="150dp"
+                android:text="CHAZ" android:textColor="@color/white"
+                android:textSize="18sp" android:textStyle="bold|italic"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/c1"
+                android:layout_height="1000dp" android:id="@+id/z10" android:layout_weight="1"
+                android:gravity="start"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:text="scroll right to see more charcters"
+        android:layout_width="347dp"
+        android:layout_height="28dp"
+        android:id="@+id/textView7" app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        android:layout_marginTop="56dp" android:textSize="14sp" android:textColor="@color/red"/>
+
+</LinearLayout>
